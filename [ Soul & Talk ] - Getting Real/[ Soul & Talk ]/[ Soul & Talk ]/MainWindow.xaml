@@ -6,7 +6,108 @@
         xmlns:local="clr-namespace:__Soul___Talk__"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
+        <Grid Grid.Row="0" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Bogføringsprogram" FontSize="24" FontWeight="Bold" VerticalAlignment="Center"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Oversigt over indtægter" FontSize="18" FontWeight="SemiBold"/>
+        </Grid>
+
+        <!--> Alt Data for indtjeninger -->
+
+        <Grid Grid.Row="2" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TreeView Grid.Column="0" Margin="0,0,0,0" HorizontalAlignment="Left" Width="Auto" BorderThickness="0">
+                <TreeViewItem Header="Offentlige Institotion" IsExpanded="True">
+                    <TreeViewItem Header="Kommune Navn 1" IsExpanded="True">
+                        <TreeViewItem Header="Offentlig tilknyttet klient 1">
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris">
+                                <CheckBox Content="Kilometer Kørt til given opgave"/>
+                            </TreeViewItem>
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                        </TreeViewItem>
+                        <TreeViewItem Header="Offentlig tilknyttet klient 2">
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                        </TreeViewItem>
+                    </TreeViewItem>
+                    <TreeViewItem Header="Kummune Navn 2" IsExpanded="True">
+                        <TreeViewItem Header="Offentlig tilknyttet klient 1">
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                        </TreeViewItem>
+                    </TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem Header="Privat Instituation" IsExpanded="True">
+                    <TreeViewItem Header="Privat Instituions Navn 1" IsExpanded="True">
+                        <TreeViewItem Header="Privat tilknyttet klient 1">
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris">
+                                <TreeViewItem Header="Kilometer Kørt til given opgave"/>
+                            </TreeViewItem>
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                        </TreeViewItem>
+                        <TreeViewItem Header="Privat tilknyttet klient 2">
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                        </TreeViewItem>
+                    </TreeViewItem>
+                    <TreeViewItem Header="Privat Instituations Navn 2" IsExpanded="True">
+                        <TreeViewItem Header="Privat tilknyttet klient 3">
+                            <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                        </TreeViewItem>
+                    </TreeViewItem>
+                </TreeViewItem>
+                <TreeViewItem Header="Private Kunder" IsExpanded="True">
+                    <TreeViewItem Header="Kunde 1">
+                        <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                        <TreeViewItem Header="Dato | Opgavetype | Tid | Pris">
+                            <TreeViewItem Header="Kilometer Kørt til given opgave"/>
+                        </TreeViewItem>
+                        <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                    </TreeViewItem>
+                    <TreeViewItem Header="Kunde 2">
+                        <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                    </TreeViewItem>
+                    <TreeViewItem Header="Kunde 3">
+                        <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                        <TreeViewItem Header="Dato | Opgavetype | Tid | Pris"/>
+                    </TreeViewItem>
+                </TreeViewItem>
+            </TreeView>
+
+            <!--> Placeholder for additional content in the second column -->
+
+        </Grid>
+
+        <Grid Grid.Row="3" Margin="0,0,0,10">
+            <Button 
+            Grid.Column="1"
+            Content="Tilføj Indtægt"
+            Padding="10"
+            BorderThickness="1"
+            BorderBrush="Black"/>
+        </Grid>
     </Grid>
 </Window>

@@ -8,23 +8,23 @@
     "net10.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pwulf\\.nuget\\packages\\": {},
+    "C:\\Users\\blaes\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pwulf\\source\\repos\\-Soul-Talk---Getting-Real\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj",
+      "projectUniqueName": "C:\\Users\\blaes\\Documents\\[ Soul & Talk ]\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj",
       "projectName": "[ Soul & Talk ]",
-      "projectPath": "C:\\Users\\pwulf\\source\\repos\\-Soul-Talk---Getting-Real\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj",
-      "packagesPath": "C:\\Users\\pwulf\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pwulf\\source\\repos\\-Soul-Talk---Getting-Real\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\obj\\",
+      "projectPath": "C:\\Users\\blaes\\Documents\\[ Soul & Talk ]\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj",
+      "packagesPath": "C:\\Users\\blaes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\blaes\\Documents\\[ Soul & Talk ]\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pwulf\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\blaes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
