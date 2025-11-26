@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\blaes\\Documents\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj": {}
+    "C:\\Users\\pwulf\\source\\repos\\-Soul-Talk---Getting-Real\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj": {}
   },
   "projects": {
-    "C:\\Users\\blaes\\Documents\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj": {
+    "C:\\Users\\pwulf\\source\\repos\\-Soul-Talk---Getting-Real\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\blaes\\Documents\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj",
+        "projectUniqueName": "C:\\Users\\pwulf\\source\\repos\\-Soul-Talk---Getting-Real\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj",
         "projectName": "[ Soul & Talk ]",
-        "projectPath": "C:\\Users\\blaes\\Documents\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj",
-        "packagesPath": "C:\\Users\\blaes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\blaes\\Documents\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\obj\\",
+        "projectPath": "C:\\Users\\pwulf\\source\\repos\\-Soul-Talk---Getting-Real\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\[ Soul & Talk ].csproj",
+        "packagesPath": "C:\\Users\\pwulf\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\pwulf\\source\\repos\\-Soul-Talk---Getting-Real\\[ Soul & Talk ] - Getting Real\\[ Soul & Talk ]\\[ Soul & Talk ]\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\blaes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\pwulf\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

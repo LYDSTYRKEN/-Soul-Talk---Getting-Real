@@ -19,6 +19,8 @@ namespace __Soul___Talk__
         public MainWindow()
         {
             InitializeComponent();
+
+            // Hello Marius
         }
     }
 }

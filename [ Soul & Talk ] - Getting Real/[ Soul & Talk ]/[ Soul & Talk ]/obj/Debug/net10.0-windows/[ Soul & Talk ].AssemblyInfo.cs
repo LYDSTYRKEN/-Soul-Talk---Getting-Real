@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("[ Soul & Talk ]")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+881c92bfa437abd295e26b3d5a2bf4dea4f9262d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a105d973bfadb86426b3a0195cd22383809d8687")]
 [assembly: System.Reflection.AssemblyProductAttribute("[ Soul & Talk ]")]
 [assembly: System.Reflection.AssemblyTitleAttribute("[ Soul & Talk ]")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
