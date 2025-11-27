@@ -34,11 +34,11 @@
 
         <Grid Grid.Row="2" Margin="0,0,0,10">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
 
-            <TreeView Grid.Column="0" Margin="0,0,0,0" HorizontalAlignment="Left" Width="Auto" BorderThickness="0">
+            <TreeView Grid.Column="0" Margin="0,0,10,0" HorizontalAlignment="Left" Width="Auto" BorderThickness="0">
                 <TreeViewItem Header="Offentlige Institotion" IsExpanded="True">
                     <TreeViewItem Header="Kommune Navn 1" IsExpanded="True">
                         <TreeViewItem Header="Offentlig tilknyttet klient 1">
@@ -101,7 +101,7 @@
 
         </Grid>
 
-        <Grid Grid.Row="3" Margin="0,0,0,10">
+        <Grid Grid.Row="3" Margin="0,0,0,0">
             <Button 
             Grid.Column="1"
             Content="Tilføj Indtægt"
